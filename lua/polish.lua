@@ -2,7 +2,7 @@
 -- things like custom filetypes. This is just pure lua so anything that doesn't
 -- fit in the normal config locations above can go here
 
-vim.keymap.set('i', 'jk', '<Esc>')
+vim.keymap.set("i", "jk", "<Esc>")
 
 -- Set up custom filetypes
 vim.filetype.add {
